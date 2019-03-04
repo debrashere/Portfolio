@@ -89,8 +89,8 @@ p a:hover {
 
 .collaspable {
   padding: 0 18px;
-  display: none;
-  overflow: hidden;
+  display: block;
+  overflow: auto;
   background-color: #f1f1f1;
 }
 
@@ -207,7 +207,7 @@ nav {
 
   }
   
-  .active-portfolio {
+  .menu-item-portfolio {
     background-color: blue;
     background-image: -webkit-gradient(linear, left top, right top, from(purple), to(#4a1b88));
     background-image: -webkit-linear-gradient(left, purple, #4a1b88);
@@ -221,11 +221,11 @@ nav {
     text-align: left;
     color: #fff!important;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 65px;
   
     }
       
-  .active-bio {
+  .menu-item-bio {
     background-color: blue;
     background-image: -webkit-gradient(linear, left top, right top, from(red), to(#e73140));
     background-image: -webkit-linear-gradient(left, red, #e73140);
@@ -242,7 +242,7 @@ nav {
   
     }
       
-  .active-contact {
+  .menu-item-contact {
     background-color: blue;
     background-image: -webkit-gradient(linear, left top, right top, from(green), to(#1ba49c));
     background-image: -webkit-linear-gradient(left, green, #1ba49c);
@@ -258,8 +258,6 @@ nav {
     margin-top: 30px;
   
     }
-
-
 
 .social a {
   border-radius: 50%;
@@ -556,6 +554,7 @@ FLEX Containers
   height:  auto; }
  .about-me { height: auto; }
  .flex-item-project { height: auto; }
+}
 
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
@@ -565,7 +564,8 @@ FLEX Containers
 .col-8 {width: 60%;}
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) 
+{
 /* For landscape layouts only */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
