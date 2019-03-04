@@ -10,12 +10,12 @@ html {
 }
 
 body {
+  font-family: 'Varela Round', sans-serif;
   color: #2a3b4e;;
   background-color:  #2a3b4e;
   overflow: scroll;
   font-size: 15px;
   line-height: 22px;
-  font-family: Varela Round;
 }
 
 a {
