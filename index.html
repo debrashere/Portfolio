@@ -13,23 +13,24 @@
 <body class="home page-template-default" > 
     <section>
     <!-- header -->
-        <header role="banner" class="col-12">                                    
-                        <!-- navigation -->
-                        <nav class="col-12 topnav sticky" id="myTopnav" role="nav">                                                     
-                                <a href="#home">                                                <img class="img-responsive" 
-                                    src="./images/HeroIcon_75.png" alt="Debra Odom" title="Debra Odom" scale="0"></a>                                        
-                                <a href="#home" class="active">Home</a>
-                                <a href="#news">Portfolio</a>
-                                <a href="#contact">Contact</a> 
-                                <a href="#about">About</a>
-                                <a href="#" class="icon">&#9776;</a>
-                            </div>                      
-                        </nav>                         
+        <header role="banner" class="col-12" id="top">                                    
+            <!-- navigation -->
+            <nav class="col-12" id="navigation" role="nav">                                                     
+                    <a href="#top"> <img class="img-responsive" 
+                        src="./images/HeroIcon_75.png" alt="Debra Odom" title="Debra Odom" scale="0"></a>                                                         
+                    <div>
+                            <a href="#portfolio" class="active-portfolio">Portfolio</a>
+                            <a href="#contact" class="active-contact">Contact</a> 
+                            <a href="#bio" class="active-bio">Bio</a>    
+                    </div>                        
+                            
+                </div>                      
+            </nav>                         
         </header> 
     </section>
     <section>
             <!-- Bio -->        
-           <div class="col-8 flex-container bg-navy flex-row text-center">       
+           <div id="bio" class="col-12 flex-container bg-navy flex-direction-row text-center">       
                <div class="col-8 flex-item bg-navy font-color-white about-me">               
                        <h1 class="text-center font-color-white">Debra Odom</h1>
                        <p class="text-left">                  
@@ -49,7 +50,7 @@
    
     <section>
             <!-- My Projects -->
-            <div class="col-12 flex-container .flex-direction-row color-dark-navy">
+            <div  id="portfolio" class="col-12 flex-container .flex-direction-row color-dark-navy">
                 <div class="col-3 flex-item-project bg-light-grey text-center">                        
                         <h2 class="margin-bottom">Menu and Event Planner</h2>
                         <p>
@@ -64,8 +65,8 @@
                         </p>
                         <div>
                                 <a class="btn btn-primary rdius-border" role="button"
-                                    href="https://github.com/debrashere/MenuAndEventPlanner/blob/master/ReadMe.md"  
-                                    target="_blank" title="Menu &amp; Event Planner">Read more
+                                    href="menuproject"  
+                                    target="_blank" title="Menu &amp; Event Planner">View more
                                 </a>
                         </div>
                 </div>
@@ -86,8 +87,8 @@
                             </p>
                             <div>
                                     <a class="btn btn-primary radius-border" role="button" 
-                                        href="https://github.com/debrashere/CareerStrategyWithApi/blob/master/Readme.md"  target="_blank" 
-                                        title="Career Strategy and Planning">Read more
+                                        href="#careerproject"  target="_blank" 
+                                        title="Career Strategy and Planning">View more
                                     </a>
                             </div>
                     </div>
@@ -107,14 +108,24 @@
                     </p>
                     <div>
                             <a class="btn btn-primary radius-border" role="button"
-                                href="https://github.com/debrashere/myeducationclient/blob/master/README.md"  target="_blank" 
-                                title="My Education Project">Read more
+                                href="#educationproject"  target="_blank" 
+                                title="My Education Project">View more
                             </a>
                     </div>   
                 </div>
         </div>            	      
     </section>
-
+    <section>
+        <div id="menuproject" class="collaspable collasped">
+            <inmg src="./images/MenuAndEventPlannerLanding.png" alt="image for menu and event planner project" />
+        </div>
+        <div id="carrerproject" class="collaspable collasped">
+            <inmg src="./images/CareerStrategyScreenShot.png" alt="image for menu and event planner project" />
+        </div>
+        <div id="educationproject" class="collaspable collasped">
+            <inmg src="./images/MyEducationScreenShot.png" alt="image for menu and event planner project" />
+        </div>
+    </section>
     <section>
         <!-- Footer -->    
         <div class="col-12 flex-container bg-black">

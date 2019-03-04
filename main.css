@@ -1,3 +1,4 @@
+
 body {  
   min-height: 100%;
   color: #2a3b4e;;
@@ -9,7 +10,6 @@ html {
 }
 
 body {
-  /* background: #fff url(../images/background_blue-250770_640.jpg) repeat; */
   color: #2a3b4e;;
   background-color:  #2a3b4e;
   overflow: scroll;
@@ -87,6 +87,20 @@ p a:hover {
   border-bottom: 1px dotted blue
 }
 
+.collaspable {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collasped {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 /*
   Button
 */
@@ -152,36 +166,31 @@ blockquote p {
 header {
   background-color: #2a3b4e;
   height: 100px;
-  margin-top: 20px
+  margin-top: 20px;
+  width: 100%;
 }
 
-  /*
-	  responsive navigation
- */
- 
- .topnav {
-	overflow: hidden;
-	background-color: #333;
-  }
-  
-  .topnav a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .topnav a:hover {
-	background-color: #ddd;
-	color: black;
-	cursor: pointer;
-  }
-  
-  .active {
 
+.clearfix {
+  overflow: auto;
+}
+
+nav {
+  padding: 1% 0;
+  background-color: black;
+  widows: 100%;
+}
+
+nav {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.active {
   background-color: blue;
   background-image: -webkit-gradient(linear, left top, right top, from(blue), to(#1ba49c));
   background-image: -webkit-linear-gradient(left, blue, #1ba49c);
@@ -195,61 +204,62 @@ header {
   text-align: left;
   color: #fff!important;
   margin-top: 30px;
- 
+
   }
   
-  .topnav .icon {
-	display: none;
-  }
-
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-
-/*
-When the screen is less than 600 pixels wide, hide all links, 
-except for the first one ("Home"). Show the link that contains 
-should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
+  .active-portfolio {
+    background-color: blue;
+    background-image: -webkit-gradient(linear, left top, right top, from(purple), to(#4a1b88));
+    background-image: -webkit-linear-gradient(left, purple, #4a1b88);
+    background-image: -moz-linear-gradient(left, purple, #4a1b88);
+    background-image: -ms-linear-gradient(left, purple, #4a1b88);
+    background-image: -o-linear-gradient(left, purple, #4a1b88);
+    font-size: 18px;
+    padding: 15px 20px;
+    border: 0 none;
+    line-height: 20px;
     text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
+    color: #fff!important;
+    margin-top: 30px;
+    margin-left: 50px;
+  
+    }
+      
+  .active-bio {
+    background-color: blue;
+    background-image: -webkit-gradient(linear, left top, right top, from(red), to(#e73140));
+    background-image: -webkit-linear-gradient(left, red, #e73140);
+    background-image: -moz-linear-gradient(left, red, #e73140);
+    background-image: -ms-linear-gradient(left, red, #e73140);
+    background-image: -o-linear-gradient(left, red, #e73140);
+    font-size: 18px;
+    padding: 15px 20px;
+    border: 0 none;
+    line-height: 20px;
     text-align: left;
-  }
-}
-/*  End Navigation  */
+    color: #fff!important;
+    margin-top: 30px;
+  
+    }
+      
+  .active-contact {
+    background-color: blue;
+    background-image: -webkit-gradient(linear, left top, right top, from(green), to(#1ba49c));
+    background-image: -webkit-linear-gradient(left, green, #1ba49c);
+    background-image: -moz-linear-gradient(left, green, #46bb18);
+    background-image: -ms-linear-gradient(left, green, #46bb18);
+    background-image: -o-linear-gradient(left, green, #46bb18);
+    font-size: 18px;
+    padding: 15px 20px;
+    border: 0 none;
+    line-height: 20px;
+    text-align: left;
+    color: #fff!important;
+    margin-top: 30px;
+  
+    }
+
+
 
 .social a {
   border-radius: 50%;
@@ -376,7 +386,6 @@ footer .current_page_item a:hover {
   margin-right: auto
 }
  
-
 /*
 FLEX Containers
 */
@@ -447,104 +456,134 @@ FLEX Containers
 .bg-black {
   background-color: black;
 }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
  
-@media (min-width:768px) {
-  #top .nav-btn {
-      border: 0;
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px
-  }
-  #nav .close-btn {
-      border: 0;
-      overflow: hidden;
-      padding: 0;
-      position: absolute
-  }
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.about-me{ height: 400px; }
+.flex-item-projects-screenshots {
+  background: url(./images/projectsComposite_325.gif) no-repeat;
+  height:  500px; }
+.flex-item-project {  height: 350px; }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .about-me{ height: auto; }
-  .flex-item-projects-screenshots {height:  auto; }
-  .flex-item-project {  height: auto; }
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.about-me{ height: 400px; }
+.flex-item-projects-screenshots {
+  background: url(./images/projectsComposite_325.gif) no-repeat;
+  height:  500px; }
+.flex-item-project {  height: 350px; }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .about-me{ height: auto; }
-  .flex-item-projects-screenshots {height:  auto; }
-  .flex-item-project {  height: auto; }
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.about-me{ height: 400px; }
+.flex-item-projects-screenshots {
+  background: url(./images/projectsComposite_325.gif) no-repeat;
+  height:  500px; }
+.flex-item-project {  height: 350px; }
 }
 
-/* Medium devices (landscape tablets, 320px and up) */
-@media only screen and (min-width: 320px) {
-  .about-me{ height: auto; }
-  .flex-item-projects-screenshots {height:  auto; }
-  .flex-item-project {  height: auto; }
+@media only screen and (max-device-width: 480px) {
+ /* styles for mobile browsers smaller than 480px; (iPhone) */
+.col-3 {width: 80%;}
+.col-4 {width: 80%;}
+.col-8 {width: 80%;}
+.flex-direction-row { flex-direction: column;}
+.flex-item-projects-screenshots {
+  background: url(./images/projectsComposite_325.gif) no-repeat;
+  height:  auto; }
+  .about-me { height: auto; }
+  .flex-item-project { height: auto; }
+}
+@media only screen and (device-width: 768px) {
+ /* default iPad screens */
+ .col-3 {width: 30%;}
+ .col-4 {width: 40%;}
+ .col-8 {width: 60%;}
+ .flex-item-projects-screenshots {
+  background: url(./images/projectsComposite_325.gif) no-repeat;
+  height:  auto; }
+ .about-me { height: auto; }
+ .flex-item-project { height: auto; }
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-8 {width: 60%;}
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 30%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  .about-me{ height: 500px; }
-  .flex-item-projects-screenshots {height:  500px; }
-  .flex-item-project {  height: 475px; }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 30%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  .about-me{ height: 500px; }
-  .flex-item-projects-screenshots {height:  500px; }
-  .flex-item-project {  height: 400px; }
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 30%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  .about-me{ height: 400px; }
-  .flex-item-projects-screenshots {height:  400px; }
-  .flex-item-project {  height: 350px; }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 30%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.about-me{ height: 400px; }
+.flex-item-projects-screenshots {
+  background: url(./images/projectsComposite_325.gif) no-repeat;
+  height:  500px; }
+.flex-item-project {  height: 350px; }
 }
 
-
+ 

@@ -17,7 +17,7 @@ function watchMenuClick() {
 }
 
 function setupHandleEvents() { 
-    watchMenuClick(); 
+    //watchMenuClick(); 
 }
 
 $(setupHandleEvents);
