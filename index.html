@@ -7,37 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">        		
     <meta name="description" content="Fullstack Web Developer.">
     <link rel="stylesheet" href="./main.css"  media="all">
-    <link rel="stylesheet" href="./css/font-awesome.min.css"  media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 </head>
 
 <body class="home page-template-default" > 
     <section>
     <!-- header -->
-        <header role="banner">
-                <div class="col-12 border-bottom border-left border-right fixed-height">                                      
-                        <div class="col-4" id="top">
-                            <a class="logo" href="http://www.debraodom.ie" title="Debra Odom">
-                                <img class="img-responsive" 
-                                    src="./images/HeroIcon.png" alt="Debra Odom" title="Debra Odom" scale="0">
-                            </a> 
-                        </div> 
-
+        <header role="banner" class="col-12">                                    
                         <!-- navigation -->
-                        <nav class="navbar col-8" id="nav" role="navigation">
-                            <ul id="bootstrap-nav" class="nav navbar-nav"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-24"><a title="Home" href="http://www.debraodom.ie/">Home</a></li>
-                                <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a title="Fullstack Web Developer Portfolio" href="./portfolio/portfolios.html/">Portfolio</a></li>
-                                <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a title="Fullstack Web Developer" href="./about.html/">About</a></li>
-                                <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="Contact Developer" href="./contact.html">Contact</a></li>
-                            </ul>                        
-                        </nav>            
-                </div>             
+                        <nav class="col-12 topnav sticky" id="myTopnav" role="nav">                                                     
+                                <a href="#home">                                                <img class="img-responsive" 
+                                    src="./images/HeroIcon_75.png" alt="Debra Odom" title="Debra Odom" scale="0"></a>                                        
+                                <a href="#home" class="active">Home</a>
+                                <a href="#news">Portfolio</a>
+                                <a href="#contact">Contact</a> 
+                                <a href="#about">About</a>
+                                <a href="#" class="icon">&#9776;</a>
+                            </div>                      
+                        </nav>                         
         </header> 
     </section>
     <section>
             <!-- Bio -->        
-           <div class="col-8 flex-container flex-row text-center">       
-               <div class="col-8 flex-item about-me">               
-                       <h1 class="text-center">Debra Odom</h1>
+           <div class="col-8 flex-container bg-navy flex-row text-center">       
+               <div class="col-8 flex-item bg-navy font-color-white about-me">               
+                       <h1 class="text-center font-color-white">Debra Odom</h1>
                        <p class="text-left">                  
                                For years I've enjoyed programming and web development. It has been exciting to grow and learn as the technology changes. 
                                I'm a recent graduate of the Front End Web Development Career Path bootcamp at Thinkful.  I do enjoy the entire lifecycle of
@@ -56,7 +50,7 @@
     <section>
             <!-- My Projects -->
             <div class="col-12 flex-container .flex-direction-row color-dark-navy">
-                <div class="col-3 flex-item-project text-center">                        
+                <div class="col-3 flex-item-project bg-light-grey text-center">                        
                         <h2 class="margin-bottom">Menu and Event Planner</h2>
                         <p>
                                 Track and share event details which may include menu's in which participates collaborate to deliver or make menu items.
@@ -69,12 +63,13 @@
                                 <a href="https://github.com/debrashere/MenuAndEventPlanner/" target="_blank" >Github repository </a>                    
                         </p>
                         <div>
-                                <a class="btn btn-primary fa-align-right" role="button"
-                                    href="https://github.com/debrashere/MenuAndEventPlanner/blob/master/ReadMe.md"  target="_blank" title="Menu &amp; Event Planner">Read more<i class="fa fa-chevron-circle-right fa-align-right"></i>
+                                <a class="btn btn-primary rdius-border" role="button"
+                                    href="https://github.com/debrashere/MenuAndEventPlanner/blob/master/ReadMe.md"  
+                                    target="_blank" title="Menu &amp; Event Planner">Read more
                                 </a>
                         </div>
                 </div>
-                <div class="col-3 flex-item-project text-center">    
+                <div class="col-3 flex-item-project bg-light-grey text-center">    
                             <h2 class="margin-bottom">Career Strategy  &amp; Planning</h2>
                             <p>
                                     Manage data pertaining to jobs that you are researching or have applied for.
@@ -90,13 +85,15 @@
                                     <a href="https://github.com/debrashere/CareerStrategyWithApi/" target="_blank" >Github repository </a>                    
                             </p>
                             <div>
-                                    <a class="btn btn-primary fa-align-right" role="button" 
-                                        href="https://github.com/debrashere/CareerStrategyWithApi/blob/master/Readme.md"  target="_blank" title="Career Strategy and Planning">Read more<i class="fa fa-chevron-circle-right fa-align-right"></i></a>
+                                    <a class="btn btn-primary radius-border" role="button" 
+                                        href="https://github.com/debrashere/CareerStrategyWithApi/blob/master/Readme.md"  target="_blank" 
+                                        title="Career Strategy and Planning">Read more
+                                    </a>
                             </div>
                     </div>
-                <div class="col-3 flex-item-project text-center">       
-                    <h2 class="margin-bottom">My Education</h2>
-                    <p>
+                    <div class="col-3 flex-item-project bg-light-grey text-center">   
+                        <h2 class="margin-bottom">My Education </h2>
+                        <p>
                             Application users can share information about educational tools for 
                             kids such as web applications.       
                             <br />
@@ -109,8 +106,10 @@
                             <a href="https://github.com/debrashere/myeducationclient/" target="_blank" >Github repository </a>                    
                     </p>
                     <div>
-                            <a class="btn btn-primary fa-align-right" role="button"
-                                href="https://github.com/debrashere/myeducationclient/blob/master/README.md"  target="_blank" title="My Education Project">Read more<i class="fa fa-chevron-circle-right fa-align-right"></i></a>
+                            <a class="btn btn-primary radius-border" role="button"
+                                href="https://github.com/debrashere/myeducationclient/blob/master/README.md"  target="_blank" 
+                                title="My Education Project">Read more
+                            </a>
                     </div>   
                 </div>
         </div>            	      
@@ -118,17 +117,17 @@
 
     <section>
         <!-- Footer -->    
-        <div class="col-12 flex-container bg-navy">
-            <footer class="flex-item margin-bottom text-center">                              
-                    <div class="col-11 social">                
+        <div class="col-12 flex-container bg-black">
+            <footer class="flex-item bg-black margin-bottom text-center">                              
+                    <div class="col-11 social bg-black">                
                         <a class="bg-github" href="https://www.github.com/debrashere/" target="_blank" title="Debra Odom, Fullstack Developer on Github"><i class="fa fa-github"></i></a>                        
                         <a class="bg-linkedin" href="http://au.linkedin.com/pub/debra-odom/33/44b/8a7" target="_blank" title="Debra Odom, Fullstack Developer on LinkedIn"><i class="fa fa-linkedin"></i></a>                        
                     </div>               
             
                 <!-- footer navigation -->
-                <div class="flex-item">
-                    <div class="col-11 ">
-                        <ul id="menu-footer-navigation" class="nav footer-nav clearfix"><li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-61"><a title="Home" href="./example.html">Home</a></li>
+                <div class="flex-item bg-black">
+                    <div class="col-11 bg-black ">
+                        <ul id="menu-footer-navigation"  class="nav footer-nav bg-black clearfix"><li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-61"><a title="Home" href="./example.html">Home</a></li>
                             <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a title="Fullstack Web Developer Portfolio" href="./portfolio/portfolios.html">Portfolio</a></li>
                             <li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a title="About Web Developer" href="./about.html">About</a></li>
                             <li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a title="Contact Developer" href="./contact.html">Contact</a></li>
@@ -137,13 +136,16 @@
                 </div>            
             
                 <!-- copyright -->
-                <div class="col-12 flex-item">
+                <div class="col-12 flex-item bg-black">
                     <div class="col-11 credits">
-                        <p>Copyright © 2019&nbsp;Debra Odom&nbsp;•&nbsp;Fullstack Developer &amp; Developer</p>
+                        <p>Copyright © 2019&nbsp;Debra Odom&nbsp;•&nbsp;Fullstack Developer</p>
                     </div>  
                 </div>           
             </footer> 
         </div> 
-    </section>     
+    </section>  
+    <!-- JS ======================================================= --> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>        
 </body>
 </html>
