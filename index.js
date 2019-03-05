@@ -2,8 +2,7 @@ function showProjectDetails() {
     $(".btn-details ").click(function(event) { 
         event.preventDefault();  
         let projectId = event.currentTarget.id.replace("btn","project")
-        let project = document.getElementById(projectId); 
-        console.log("showProjectDetails focus id ",project.id);            
+        let project = document.getElementById(projectId);            
         project.className = "collaspable";                 
         project.focus();     
     }); 
