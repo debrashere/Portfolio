@@ -18,11 +18,11 @@
             <!-- navigation -->
             <nav class="col-12" id="navigation" role="nav">                                                     
                     <a href="#top"> <img class="img-responsive" 
-                        src="./images/HeroIcon_75.png" alt="Debra Odom" title="Debra Odom" scale="0"></a>                                                         
+                        src="./images/HeroIcon_75.png" alt="Debra Odom Hero Icon" title="Debra Odom" scale="0"></a>                                                         
                     <div>
-                            <a href="#portfolio" class="menu-item-portfolio">Portfolio</a>
-                            <a href="#contacts" class="menu-item-contact">Contact</a> 
-                            <a href="#bio" class="menu-item-bio">Bio</a>    
+                            <a href="#portfolio" class="menu-item-portfolio" title="Portolio link">Portfolio</a>
+                            <a href="#contacts" class="menu-item-contact" title="Contact link">Contact</a> 
+                            <a href="#bio" class="menu-item-bio" title="Bio link">Bio</a>    
                     </div>                                                    
                 </div>                      
             </nav>                         
@@ -31,7 +31,7 @@
     <section>
             <!-- Bio -->        
            <div id="bio" class="col-12 flex-container bg-navy flex-direction-row text-center">       
-               <div class="col-8 flex-item bg-navy font-color-white about-me">                     
+               <div class="col-12 flex-item bg-navy font-color-white my-bio text-center">                     
                        <h1 class="text-center font-color-white">Debra Odom</h1>
                        <p class="text-left">                  
                                For years I've enjoyed programming and web development. It has been exciting to grow and learn as the technology changes. 
@@ -42,16 +42,22 @@
                        <p class="text-left">                     
                                When I'm not coding I enjoy cooking, spending time with family and designing jewelry with my sister. I do like to travel and look 
                                forward to traveling more in the future.
-                       </p>                                                                                                       
-               </div> 
-               <div class="col-4 flex-item-projects-screenshots"></div>                        
+                       </p> 
+                       <p class="radius-border">
+                           <h2 class="font-color-white">Skills</h2>
+                           HTML5, Responsive design, JavaScript, JQuery, JSON data, Web API, JWT, Npm, 
+                           Mongo, Mongoose, NodeJS, React, Redux, CHAI, Mocha and Enzyme testing tools,
+                            .Net, C#, Visual Studio, WCF services, SQL, TFS, TDD, Postman, Powershell, SSIS, 
+                            SSRS, Agile/Scrum Methodologies,  Skilled in Requirements Analysis
+                       </p>                                                                                                     
+               </div>                        
        </div> 
        </section>
    
     <section>
             <!-- My Projects -->
             <div  id="portfolio" class="col-12 flex-container .flex-direction-row color-dark-navy">
-                <div class="col-3 flex-item-project bg-light-grey text-center">                        
+                <div id="portfolio-menu" class="col-3 flex-item-project bg-light-grey text-center">                        
                         <h2 class="margin-bottom">Menu and Event Planner</h2>
                         <p>
                                 Track and share event details which may include menu's in which participates collaborate to deliver or make menu items.
@@ -60,16 +66,16 @@
                                 <strong>Technologies used</strong> <br />
                                 Html5, Responsive design, JavaScript, JQuery, JSON data, Web API
                                 <br />
-                                <a href="https://debrashere.github.io/MenuAndEventPlanner/" target="_blank" >Live app</a>&nbsp;|&nbsp;
-                                <a href="https://github.com/debrashere/MenuAndEventPlanner/" target="_blank" >Github repository </a>                    
+                                <a href="https://debrashere.github.io/MenuAndEventPlanner/" target="_blank" title="Menu Live app link">Live app</a>&nbsp;|&nbsp;
+                                <a href="https://github.com/debrashere/MenuAndEventPlanner/" target="_blank" title="Menu Github repository link">Github repository </a>                    
                         </p>
                         <div>
                                 <a id="menu-btn" class="btn btn-details btn-primary radius-border" role="button"
-                                    href="#menuproject" title="Menu &amp; Event Planner">View more
+                                    href="#menu-project" title="Menu &amp; Event Planner">View more
                                 </a>
                         </div>
                 </div>
-                <div class="col-3 flex-item-project bg-light-grey text-center">    
+                <div id="portfolio-career" class="col-3 flex-item-project bg-light-grey text-center">    
                             <h2 class="margin-bottom">Career Strategy  &amp; Planning</h2>
                             <p>
                                     Manage data pertaining to jobs that you are researching or have applied for.
@@ -81,16 +87,16 @@
                                     Html5, Responsive design, JavaScript, JQuery, JSON data, Web API, JWT, Mongo, Mongoose, NodeJS, React, Redux, 
                                     CHAI, Mocha and Enzyme testing tools.
                                     <br />
-                                    <a href="https://debrashere.github.io/CareerStrategyWithApi/" target="_blank" >Live app</a>&nbsp;|&nbsp;
-                                    <a href="https://github.com/debrashere/CareerStrategyWithApi/" target="_blank" >Github repository </a>                    
+                                    <a href="https://debrashere.github.io/CareerStrategyWithApi/" target="_blank" title="Career live app link">Live app</a>&nbsp;|&nbsp;
+                                    <a href="https://github.com/debrashere/CareerStrategyWithApi/" target="_blank" title="Career Github repository link" >Github repository </a>                    
                             </p>
                             <div>
                                     <a id="career-btn" class="btn btn-details  btn-primary radius-border" role="button" 
-                                        href="#careerproject"  title="Career Strategy and Planning">View more
+                                        href="#career-project"  title="Career Strategy and Planning">View more
                                     </a>
                             </div>
                     </div>
-                    <div class="col-3 flex-item-project bg-light-grey text-center">   
+                    <div id="portfolio-education" class="col-3 flex-item-project bg-light-grey text-center">   
                         <h2 class="margin-bottom">My Education </h2>
                         <p>
                             Application users can share information about educational tools for 
@@ -101,12 +107,12 @@
                             Mongo, Mongoose, NodeJS, React, Redux, CHAI, Mocha and Enzyme testing tools.
                 
                             <br />
-                            <a href="https://immense-savannah-21266.herokuapp.com/" target="_blank" >Live app</a>&nbsp;|&nbsp;
-                            <a href="https://github.com/debrashere/myeducationclient/" target="_blank" >Github repository </a>                    
+                            <a href="https://immense-savannah-21266.herokuapp.com/" target="_blank"  title="Education live app link">Live app</a>&nbsp;|&nbsp;
+                            <a href="https://github.com/debrashere/myeducationclient/" target="_blank"  title="Education Github repository link">Github repository </a>                    
                     </p>
                     <div>
                             <a id="education-btn" class="btn btn-details btn-primary radius-border" role="button"
-                                href="#educationproject"  title="My Education Project">View more
+                                href="#education-project"  title="My Education Project">View more
                             </a>
                     </div>   
                 </div>
@@ -120,7 +126,7 @@
             <div  class="col-10">
                 <div>
                         <a id="menu-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
-                            href="#careerproject"  title="Menu Project close button">Close
+                            href="#portfolio-menu"  title="Menu Project close button">Close
                         </a>
                 </div>
                 <img src="./images/MenuAndEventPlannerLanding.png" alt="image for menu and event planner project" />
@@ -131,12 +137,12 @@
         <div  id="career-project" class="collaspable collasped"> 
             <div  class="col-10">            
                 <div>
-                        <a id="career-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
-                            href="#careerproject"  title="Menu Project close button">Close career
+                        <a id="career-close" class="btn btn-collaspe btn-primary radius-border text-center" role="button" 
+                            href="#portfolio-career"  title="Menu Project close button">Close
                         </a>
                 </div>          
-                <div id="career-project">
-                    <img src="./images/CareerStrategyScreenShot.png" alt="image for menu and event planner project" />
+                <div>
+                    <img src="./images/CareerStrategyScreenShot.png" alt="image for career strategy project" />
                 </div>
             </div>  
         </div>   
@@ -145,12 +151,14 @@
             <div  class="col-10">     
                 <div>         
                     <a id="education-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
-                        href="#careerproject"  title="Menu Project close button">Close education
+                        href="#portfolio-education"  title="Menu Project close button">Close
                     </a>
-                </div>               
-                <div id="education-project" >
-                    <img src="./images/MyEducationScreenShot.png" alt="image for menu and event planner project" />
-                </div>
+                </div>            
+                <div class="col-4 project-education-screenshots">
+                       
+                </div> 
+                <span class="project-details">My project details</span>  
+                               
             </div>
         </div>          
     </section>
@@ -158,15 +166,19 @@
         <!-- Contact information -->
         <div  id="contacts" class="col-12 bg-navy font-color-white text-center"> 
             <h1 class="text-center font-color-white">My contact information</h1>       
-            <div id="email">
-                    debraaodom@gmail.com
+            <div id="email"  class="font-color-white">
+                    <address>
+                        <a href="mailto:debraaodom@gmail.com">Debra Odom @debraaodom@gmail.com</a><br>  
+                    </address>
             </div>
-            <div id="github">
-                https://github.com/debrashere/projects/
+            <div id="github" class="font-color-white">
+                <a href="https://github.com/debrashere" target="_blank" 
+                    title="Contact link to my Github repository">Github Repository</a>
             </div>
-            <div id="linkedin">
-                https://www.linkedin.com/
-            </div>           
+            <div id="linkedin" class="font-color-white">
+                    <a href="https://www.linkedin.com/in/debra-o-66229410/" target="_blank" 
+                        title="Contact link to my LinkIn">LinkedIn</a>
+            </div>                      
         </div>
     </section>    
     <section>
@@ -174,27 +186,22 @@
         <div class="col-12 flex-container bg-black">
             <footer class="flex-item bg-black margin-bottom text-center">                              
                     <div class="col-11 social bg-black">                
-                        <a class="bg-github" href="https://www.github.com/debrashere/" target="_blank" title="Debra Odom, Fullstack Developer on Github"><i class="fa fa-github"></i></a>                        
-                        <a class="bg-linkedin" href="http://au.linkedin.com/pub/debra-odom/33/44b/8a7" target="_blank" title="Debra Odom, Fullstack Developer on LinkedIn"><i class="fa fa-linkedin"></i></a>                        
-                    </div>               
-            
+                        <a href="https://www.github.com/debrashere/" target="_blank" title="Debra Odom, Fullstack Developer on Github"><i class="fa fa-github"></i>Github</a>                        
+                        <a href="https://thinkful.slack.com/" target="_blank" title="Debra Odom, known as DeeDee on slack"><i class="fa fa-slack"></i>Slack</a>                        
+                        <a href="https://www.linkedin.com/in/debra-o-66229410/" target="_blank" title="Debra Odom, Fullstack Developer on LinkedIn"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                    </div>     
+                                                                     
                 <!-- footer navigation -->
                 <div class="flex-item bg-black">
                     <div class="col-11 bg-black ">
-                        <ul id="menu-footer-navigation"  class="nav footer-nav bg-black clearfix"><li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-61"><a title="Home" href="#top">Home</a></li>
-                            <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a title="Fullstack Web Developer Portfolio" href="#portfolio">Portfolio</a></li>
-                            <li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a title="About Web Developer" href="#bio">Bio</a></li>
-                            <li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a title="Contact Developer" href="#contacts">Contact</a></li>
+                        <ul id="menu-footer-navigation"  class="nav footer-nav bg-black clearfix">
+                            <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-61"><a title="Home footer link" href="#top">Home</a></li>
+                            <li id="menu-item-01"><a title="Fullstack Web Developer Portfolio" href="#portfolio">Portfolio</a></li>
+                            <li id="menu-item-02"><a title="Web Developer Bio" href="#bio">Bio</a></li>
+                            <li id="menu-item-03"><a title="Contact Developer" href="#contacts">Contact</a></li>
                         </ul>                        
                     </div>   
-                </div>            
-            
-                <!-- copyright -->
-                <div class="col-12 flex-item bg-black">
-                    <div class="col-11 credits">
-                        <p>Copyright © 2019&nbsp;Debra Odom&nbsp;•&nbsp;Fullstack Developer</p>
-                    </div>  
-                </div>           
+                </div>                                           
             </footer> 
         </div> 
     </section>  

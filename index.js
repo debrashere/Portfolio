@@ -2,10 +2,8 @@ function showProjectDetails() {
     $(".btn-details ").click(function(event) { 
         event.preventDefault();  
         let projectId = event.currentTarget.id.replace("btn","project")
-        console.log("showProjectDetais event.currentTarget.id projectId ", "Target.id: " + event.currentTarget.id + "  projectId: " + projectId);
-        let project = document.getElementById(projectId);  
-        console.log("showProjectDetais project ",  project);               
-        project.className = " collaspable";                 
+        let project = document.getElementById(projectId);                
+        project.className = "collaspable";                 
         project.focus();     
     }); 
 }
@@ -13,11 +11,8 @@ function showProjectDetails() {
 function hideProjectDetails() {
     $(".btn-collaspe ").click(function(event) { 
         event.preventDefault();       
-        let projectId = event.currentTarget.id.replace("close","project")
-        console.log("hideProjectDetails event.currentTarget.id projectId ", "Target.id: " + event.currentTarget.id + "  projectId: " + projectId);
-              
-        let project = document.getElementById(projectId); 
-        console.log("hideProjectDetails project ",  project);          
+        let projectId = event.currentTarget.id.replace("close","project")              
+        let project = document.getElementById(projectId);          
         project.className = "collaspable collasped";               
     }); 
 }

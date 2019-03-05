@@ -136,6 +136,7 @@ p a:hover {
 
 .btn-primary .fa-align-right {
   position: absolute;
+  margin-top: 25px;
   right: 30px
 }
 
@@ -429,10 +430,24 @@ FLEX Containers
   border-radius: 5%;
 }
 
-.about-me{  
+.project-education-screenshots { 
+  margin-bottom: 5px;  
+  background: url(./images/MyEducationScreenShot_100.png) no-repeat;
+  height: 500px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.project-details {
+  padding-top: 50px;
+  padding-left: 500px;
+}
+
+.my-bio {  
   height: 500px;
   font-size: 20px;  
   line-height: 22px;
+  width:  60%;
  }
 
  .font-color-black {
@@ -483,11 +498,12 @@ FLEX Containers
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-.about-me{ height: 400px; }
+.my-bio{ height: 400px; width:  60%;}
 .flex-item-projects-screenshots {
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  500px; }
 .flex-item-project {  height: 350px; }
+.project-education-screenshots { background: url(./images/MyEducationScreenShot_200.png) no-repeat; }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -504,11 +520,12 @@ FLEX Containers
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-.about-me{ height: 400px; }
+.my-bio{ height: 400px; width:  60%}
 .flex-item-projects-screenshots {
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  500px; }
 .flex-item-project {  height: 350px; }
+.project-education-screenshots { background: url(./images/MyEducationScreenShot_400.png) no-repeat; }
 }
 
 @media only screen and (min-width: 2000px) {
@@ -525,11 +542,12 @@ FLEX Containers
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-.about-me{ height: 400px; }
+.my-bio{ height: 400px;  width:  60%}
 .flex-item-projects-screenshots {
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  500px; }
 .flex-item-project {  height: 350px; }
+.project-education-screenshots { background: url(./images/MyEducationScreenShot_400.png) no-repeat; }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -541,8 +559,9 @@ FLEX Containers
 .flex-item-projects-screenshots {
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  auto; }
-  .about-me { height: auto; }
+  .my-bio { height: auto; width: 85% }
   .flex-item-project { height: auto; }
+  .project-education-screenshots { background: url(./images/MyEducationScreenShot_100.png) no-repeat; }
 }
 @media only screen and (device-width: 768px) {
  /* default iPad screens */
@@ -552,8 +571,9 @@ FLEX Containers
  .flex-item-projects-screenshots {
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  auto; }
- .about-me { height: auto; }
+ .my-bio { height: auto; }
  .flex-item-project { height: auto; }
+ .project-education-screenshots { background: url(./images/MyEducationScreenShot_300.png) no-repeat; }
 }
 
 /* different techniques for iPad screening */
@@ -562,6 +582,8 @@ FLEX Containers
 .col-3 {width: 30%;}
 .col-4 {width: 40%;}
 .col-8 {width: 60%;}
+.my-bio{ height: 400px;  width:  60%}
+.project-education-screenshots { background: url(./images/MyEducationScreenShot_200.png) no-repeat; }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) 
@@ -579,11 +601,10 @@ FLEX Containers
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-.about-me{ height: 400px; }
+.my-bio{ height: 400px;  width:  60%}
 .flex-item-projects-screenshots {
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  500px; }
 .flex-item-project {  height: 350px; }
-}
-
- 
+.project-education-screenshots { background: url(./images/MyEducationScreenShot_400.png) no-repeat; }
+} 
