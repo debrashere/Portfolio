@@ -438,6 +438,30 @@ FLEX Containers
   border-radius: 5%;
 }
 
+.project-career-screenshots { 
+  margin-bottom: 5px;  
+  background: url(./images/CareerStrategyScreenShot.png) no-repeat;
+  height: 500px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.project-menu-screenshots { 
+  margin-bottom: 5px;  
+  background: url(./images/MenuAndEventPlannerLanding.png) no-repeat;
+  height: 500px;
+  width: auto;
+  border-radius: 5%;
+}
+
+
+.project-education-screenshots { 
+  margin-bottom: 5px;  
+  background: url(./images/CareerStrategyScreenShot.png) no-repeat;
+  height: 500px;
+  width: auto;
+  border-radius: 5%;
+}
 .project-details {
   padding-top: 50px;
   padding-left: 500px;
@@ -447,7 +471,6 @@ FLEX Containers
   height: 500px;
   font-size: 20px;  
   line-height: 22px;
-  width:  60%;
  }
 
  .font-color-black {
@@ -470,6 +493,9 @@ FLEX Containers
   background-color: black;
 }
 
+.font-size-medium {
+  font-size: medium;
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 30%;}

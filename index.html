@@ -31,7 +31,7 @@
     <section>
             <!-- Bio -->        
            <div id="bio" class="col-12 flex-container bg-navy flex-direction-row text-center">       
-               <div class="col-12 flex-item bg-navy font-color-white my-bio text-center">                     
+               <div class="col-8 flex-item bg-navy font-color-white my-bio text-center">                     
                        <h1 class="text-center font-color-white">Debra Odom</h1>
                        <p class="text-left">                  
                                For years I've enjoyed programming and web development. It has been exciting to grow and learn as the technology changes. 
@@ -96,7 +96,7 @@
                                     </a>
                             </div>
                     </div>
-                    <div id="portfolio-education" class="col-3 flex-item-project bg-light-grey text-center">   
+                    <div id="portfolio-education" class="col-3 flex-item-project bg-light-grey text-center"  tabindex="-1">   
                         <h2 class="margin-bottom">My Education </h2>
                         <p>
                             Application users can share information about educational tools for 
@@ -112,7 +112,7 @@
                     </p>
                     <div>
                             <a id="education-btn" class="btn btn-details btn-primary radius-border" role="button"
-                                href="#education-project"  title="My Education Project">View more
+                                href="#"  title="My Education Project">View more
                             </a>
                     </div>   
                 </div>
@@ -123,48 +123,130 @@
           
         <!-- Menu and Event planning project-->
         <div  id="menu-project" class="collaspable collasped">
-            <div  class="col-10">
-                <div>
+                <div  class="col-10">     
+                    <div class="text-right">         
                         <a id="menu-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
                             href="#portfolio-menu"  title="Menu Project close button">Close
                         </a>
-                </div>
-                <img src="./images/MenuAndEventPlannerLanding.png" alt="image for menu and event planner project" />
-            </div>
-        </div> 
+                    </div>  
+                    <div class="flex-container  flex-direction-row">                            
+                        <div class="col-4 flex-item project-menu-screenshots"></div> 
+                        <div class="col-6 flex-item">             
+                            <h2>What you can do</h2>
+                            <p>Search for recipes.
+                                Make changes to the event details such as address and event name. 
+                                Note: this data is not stored when the page is refreshed, the mock data will appear.
+                            </p>                                                       
+                            <p>                                                                     
+                                    <h3>To find recipes</h3>
+                                    <ul>
+                                        <li>Enter ingredient, dish name etc in "Input" box for recipe search and hit enter.
+                                            Collection of recipes will display below the search box.</li> 
+                                        <li>Review the results by paging thru them.</li> 
+                                        <li>To select a recipe to add to the menu
+                                            <ul>
+                                                <li>Within each recipe box is text "Add recipe to menu".</li>
+                                                <li>Below that are links for each couse.</li>
+                                                <li>Click on the link for the course you would like to add the recipe to.</li>
+                                                <li>  Scroll down to the menu section and the recipe name from the search results should appear.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <h3>To update the location of the event</h3>
+                                    <ul>
+                                        <li>Next to the event name, click the "edit" link.</li> 
+                                        <li>An input form should appear at the top of the screen.</li> 
+                                        <li>Change the address of the event and click the "Submit" button.
+                                                The address and the google map should be updated with the new address.
+                                                To display only menu items contributed by a specific attendee.                                           
+                                    </ul>                                    
+                            </p>                                                   
+                        </div>              
+                    </div>
+            </div> 
+        </div>   
         
-        <!-- Career planning project-->
-        <div  id="career-project" class="collaspable collasped"> 
-            <div  class="col-10">            
-                <div>
-                        <a id="career-close" class="btn btn-collaspe btn-primary radius-border text-center" role="button" 
+        <!-- Career planning project--> 
+        <div  id="career-project" class="collaspable collasped">
+                <div  class="col-10">     
+                    <div class="text-right">         
+                        <a id="career-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
                             href="#portfolio-career"  title="Menu Project close button">Close
                         </a>
-                </div>          
-                <div>
-                    <img src="./images/CareerStrategyScreenShot.png" alt="image for career strategy project" />
-                </div>
-            </div>  
-        </div>   
+                    </div>  
+                    <div class="flex-container  flex-direction-row">                            
+                        <div class="col-4 flex-item project-career-screenshots"></div> 
+                        <div class="col-6 flex-item">             
+                            <h2>What you can do</h2>
+                            <p>Search for recipes.
+                                Make changes to the event details such as address and event name. 
+                                Note: this data is not stored when the page is refreshed, the mock data will appear.
+                            </p>
+    
+                            <h3>Job Prospect Information</h3>                          
+                            <p>
+                                <ul>                                        
+                                       <li> What: The job title. Displayed as heading.</li>
+                                       <li>Where: The name of the company.</li>
+                                        <li>When: When you applied or contacted company about this job.</li>
+                                        <li>Status: The current status.</li>
+                                        <li>Source: Where you found this job prospect.</li>
+                                        <li>Source Url: Link to this job if applicable.</li>
+                                        <li>Contacts: Information about persons who have contacted you about this job.</li>
+                                        <li>Comments: Any additional comments.</li>
+                                        <li>Details: Any details you would like to add about the job prospect.</li>
+                                        <li>Day to Day: The day to day expections of the job prospect.</li>
+                                        <li>Job Skills: Skills required or optional for the job prospect. Green indicates a match between your skills and the job skills.</li>                                                                                                            
+                                </ul>
+                            </p>                                                   
+                        </div>              
+                    </div>
+            </div> 
+        </div>       
         <!-- My Education project-->                 
         <div  id="education-project" class="collaspable collasped">
             <div  class="col-10">     
-                <div>         
+                <div class="text-right">         
                     <a id="education-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
                         href="#portfolio-education"  title="Menu Project close button">Close
                     </a>
-                </div>            
-                <div class="col-4 project-education-screenshots">
-                       
-                </div> 
-                <span class="project-details">My project details</span>  
-                               
-            </div>
-        </div>          
+                </div>  
+                <div class="flex-container  flex-direction-row">                            
+                    <div class="col-4 flex-item project-education-screenshots"></div> 
+                    <div class="col-6 flex-item">             
+                        <h2>What you can do</h2>
+                        <p>View educational tools that users of this App have submitted.</p>
+
+                        <h3>Tools</h3>
+                         <p>You are able to view rating of tools that users have submitted to the site.</p>
+
+                        <p>
+                            <ul>
+                                <li>Title: The name of the tool.</li>
+                                <li>Description: A brief description of the tool.</li>
+                                <li>Url: The site url for the tool.</li>
+                                <li>Price: The price of the tool.</li>
+                                <li>Rating: Rating between 1 and 5 given by the user. </li>
+                            </ul>
+                        </p> 
+                                              
+                        <h3>Comments</h3>
+                        <p>
+                           <ul>
+                               <li>Author: User name of the person who sumitted the comment.</li>
+                               <li>Comment: What they had to say about the tool.</li>
+                               <li>Rating: The rating the user gave this tools</li>                   
+                           </ul>
+                       </p>                         
+                    </div>              
+                </div>
+        </div> 
+    </div>         
     </section>
     <section>
         <!-- Contact information -->
-        <div  id="contacts" class="col-12 bg-navy font-color-white text-center"> 
+        <div  id="contacts" class="col-12 bg-navy font-color-white font-size-medium text-center"> 
             <h1 class="text-center font-color-white">My contact information</h1>       
             <div id="email"  class="font-color-white">
                     <address>
