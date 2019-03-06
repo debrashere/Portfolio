@@ -3,7 +3,7 @@ function showProjectDetails() {
         event.preventDefault();  
         let projectId = event.currentTarget.id.replace("btn","project")
         let project = document.getElementById(projectId);            
-        project.className = "collaspable";                 
+        project.className = "collaspable  margin-top-20px";                 
         project.focus();     
     }); 
 }
@@ -13,7 +13,7 @@ function hideProjectDetails() {
         event.preventDefault();       
         let projectId = event.currentTarget.id.replace("close","project")              
         let project = document.getElementById(projectId);          
-        project.className = "collaspable collasped";               
+        project.className = "collaspable collasped  margin-top-20px";               
     }); 
 }
 
