@@ -9,10 +9,12 @@ html {
   height: 100%;
 }
 
-body {
-  /*font-family: 'Varela Round', sans-serif; */
+.bg-navy {
+  background-color:  #2a3b4e;
+}
+body { 
   font-family: 'Old Standard TT', serif;
-  color: #2a3b4e;;
+  color: black;;
   background-color:  #2a3b4e;
   overflow: scroll;
   font-size: 15px;
@@ -57,7 +59,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Varela Round
+  font-family: 'Old Standard TT', serif;
 }
 
 .h1,
@@ -93,14 +95,22 @@ h4 {
 }
 
 p a {
-  color: #525d68;
-  border-bottom: 1px dotted #525d68;
-  display: inline
-}
+  color: #525d68; 
+  display: inline;
+  font-size: 1em;
+  padding: 5px;
+  margin: 5px;
+  outline: 0!important;
+  line-height: 1.5em;
+  border: 1px solid blue;
+  }
 
 p a:hover {
-  color: #525d68;
-  border-bottom: 1px dotted blue
+  color: rgb(65, 233, 14);
+  border: 1px solid blue;
+  font-size: 1em;  
+  text-decoration: none;
+  background-color:  #2a3b4e;
 }
 
 .collaspable {
@@ -289,6 +299,12 @@ nav {
   margin-right: 10px
 }
 
+.icon {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
 .social a i {
   margin-top: 8px
 }
@@ -441,6 +457,9 @@ FLEX Containers
   line-height: 22px;
  }
 
+ .margin-bottom-20px {
+  margin-bottom: 50px;
+}
 .margin-top-20px {
   margin-top: 20px;
 }
