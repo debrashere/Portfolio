@@ -21,14 +21,29 @@ body {
 
 a {
   color: blue;
-  outline: 0!important
+  outline: 0!important;
 }
 
 a:hover {
   color: #05a387;
-  text-decoration: none
+  text-decoration: none;
 }
 
+.contact a {
+  font-size: 1.5em;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  outline: 0!important;
+  line-height: 2em;
+}
+
+.contact a:hover {
+  font-size: 1.5em;
+  color: rgb(65, 233, 14);
+  text-decoration: none
+}
+ 
 /* For mobile phones: */
 [class*="col-"] {
   width: 90%;
@@ -338,52 +353,15 @@ footer .footer-nav li a {
   display: inline-block;
 }
 
-footer .post-type-archive-tutorials #menu-item-777 a,
-footer .single-tutorials #menu-item-777 a,
-footer .tax-topic #menu-item-777 a {
-  border-bottom: none!important;
-  color: #fff!important;
-}
 
-footer .post-type-archive-tutorials #menu-item-777 a:hover,
-footer .single-tutorials #menu-item-777 a:hover,
-footer .tax-topic #menu-item-777 a:hover {
-  color: blue!important;
-}
-
-footer .current-menu-item a,
-footer .current-menu-parent a,
-footer .current-page-ancestor a,
-footer .current_page_parent a {
-  font-weight: 400;
+footer .footer-nav li a:hover {
+  font-size: 16px!important;
+  color: rgb(65, 233, 14);
+  font-size: 20px;
+  padding: 0;
+  margin-right: 10px;
   text-decoration: none;
-  border-bottom: 1px dotted #1ba49c;
-}
-
-footer .current-menu-item a:hover,
-footer .current-menu-parent a:hover,
-footer .current-page-ancestor a:hover,
-footer .current_page_parent a:hover {
-  text-decoration: none!important;
-}
-
-footer .credits {
-  font-size: 12px;
-  color: #83909d
-}
-
-
-footer .current-page-ancestor a,
-footer .current-page-ancestor a:hover,
-footer .current_page_item a,
-footer .current_page_item a:hover {
-  text-decoration: underline;
-}
-
-.main_position {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
 }
  
 /*
@@ -486,20 +464,7 @@ FLEX Containers
 .font-size-medium {
   font-size: medium;
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 30%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
  
-
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */
 .col-1 {width: 8.33%;}
