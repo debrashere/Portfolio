@@ -30,16 +30,16 @@ a:hover {
 }
 
 .contact a {
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
   padding: 5px;
   margin: 10px;
   outline: 0!important;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 .contact a:hover {
-  font-size: 1.5em;
+  font-size: 1em;
   color: rgb(65, 233, 14);
   text-decoration: none
 }
@@ -127,8 +127,8 @@ p a:hover {
   background-image: -moz-linear-gradient(left, blue, #1ba49c);
   background-image: -ms-linear-gradient(left, blue, #1ba49c);
   background-image: -o-linear-gradient(left, blue, #1ba49c);
-  font-size: 18px;
-  padding: 15px 20px;
+  font-size: 14px;
+  padding: 12px 14px;
   border: 0 none;
   line-height: 20px;
   text-align: left;
@@ -214,8 +214,8 @@ nav {
   background-image: -moz-linear-gradient(left, blue, #1ba49c);
   background-image: -ms-linear-gradient(left, blue, #1ba49c);
   background-image: -o-linear-gradient(left, blue, #1ba49c);
-  font-size: 18px;
-  padding: 15px 20px;
+  font-size: 14px;
+  padding: 12px 14px;
   border: 0 none;
   line-height: 20px;
   text-align: left;
@@ -231,8 +231,8 @@ nav {
   background-image: -moz-linear-gradient(left, purple, #4a1b88);
   background-image: -ms-linear-gradient(left, purple, #4a1b88);
   background-image: -o-linear-gradient(left, purple, #4a1b88);
-  font-size: 18px;
-  padding: 15px 20px;
+  font-size: 14px;
+  padding: 12px 14px;
   border: 0 none;
   line-height: 20px;
   text-align: left;
@@ -249,8 +249,8 @@ nav {
   background-image: -moz-linear-gradient(left, red, #e73140);
   background-image: -ms-linear-gradient(left, red, #e73140);
   background-image: -o-linear-gradient(left, red, #e73140);
-  font-size: 18px;
-  padding: 15px 20px;
+  font-size: 14px;
+  padding: 12px 14px;
   border: 0 none;
   line-height: 20px;
   text-align: left;
@@ -266,8 +266,8 @@ nav {
   background-image: -moz-linear-gradient(left, green, #46bb18);
   background-image: -ms-linear-gradient(left, green, #46bb18);
   background-image: -o-linear-gradient(left, green, #46bb18);
-  font-size: 18px;
-  padding: 15px 20px;
+  font-size: 14px;
+  padding: 12px 14px;
   border: 0 none;
   line-height: 20px;
   text-align: left;
@@ -484,7 +484,14 @@ FLEX Containers
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  500px; }
 .flex-item-project {  height: 350px; }
-}
+.contact a { font-size: 1.5em;  line-height: 2em; }
+.contact a:hover { font-size: 1.5em;  line-height: 2em; }
+.btn-primary { font-size: 14px;  padding: 12px 14px }
+.active { font-size: 18px;  padding: 15px 20px }
+.menu-item-portfolio { font-size: 18px;  padding: 15px 20px }
+.menu-item-bio { font-size: 18px;  padding: 15px 20px }  
+.menu-item-contact { font-size: 18px;  padding: 15px 20px }
+  }  
 
 @media only screen and (min-width: 1440px) {
   /* styles for browsers larger than 1440px; */
@@ -505,6 +512,13 @@ FLEX Containers
   background: url(./images/projectsComposite_325.gif) no-repeat;
   height:  500px; }
 .flex-item-project {  height: 350px; }
+.contact a { font-size: 1.5em;  line-height: 2em; }
+.contact a:hover { font-size: 1.5em;  line-height: 2em; }
+.btn-primary { font-size: 14px;  padding: 12px 14px }
+.active { font-size: 18px;  padding: 15px 20px }
+.menu-item-portfolio { font-size: 18px;  padding: 15px 20px }
+.menu-item-bio { font-size: 18px;  padding: 15px 20px }  
+.menu-item-contact { font-size: 18px;  padding: 15px 20px }
 }
 
 @media only screen and (min-width: 2000px) {
@@ -523,6 +537,13 @@ FLEX Containers
 .col-12 {width: 100%;}
 .my-bio{ height: 400px;  width:  60%}
 .flex-item-project {  height: 350px; }
+.contact a { font-size: 1.5em;  line-height: 2em; }
+.contact a:hover { font-size: 1.5em;  line-height: 2em; }
+.btn-primary { font-size: 14px;  padding: 12px 14px }
+.active { font-size: 18px;  padding: 15px 20px }
+.menu-item-portfolio { font-size: 18px;  padding: 15px 20px }
+.menu-item-bio { font-size: 18px;  padding: 15px 20px }  
+.menu-item-contact { font-size: 18px;  padding: 15px 20px }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -534,6 +555,13 @@ FLEX Containers
   .flex-direction-row { flex-direction: column;}
   .my-bio { height: auto; width: 85% }
   .flex-item-project { height: auto; }
+  .contact a { font-size: 1em;  line-height: 1.5em; }
+  .contact a:hover { font-size: 1em;  line-height: 1.5em; }
+  .btn-primary { font-size: 14px;  padding: 12px 14px }
+.active { font-size: 14px;  padding: 12px 14px }
+.menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
+.menu-item-bio { font-size: 14px;  padding: 12px 14px }
+.menu-item-contact { font-size: 14px;  padding: 12px 14px }
 }
 @media only screen and (device-width: 768px) {
  /* default iPad screens */
@@ -544,6 +572,13 @@ FLEX Containers
  .flex-direction-row { flex-direction: column;}
  .my-bio { height: auto; }
  .flex-item-project { height: auto; }
+ .contact a { font-size: 1em;  line-height: 1.5em; }
+ .contact a:hover { font-size: 1em;  line-height: 1.5em; }
+ .btn-primary { font-size: 14px;  padding: 12px 14px }
+ .active { font-size: 14px;  padding: 12px 14px }
+ .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
+ .menu-item-bio { font-size: 14px;  padding: 12px 14px }
+ .menu-item-contact { font-size: 14px;  padding: 12px 14px }
 }
 
 
@@ -556,6 +591,13 @@ FLEX Containers
   .col-6 {width: 90%;}
   .my-bio{ height: 400px;  width:  60%}
   .flex-direction-row { flex-direction: column;}
+  .contact a { font-size: 1em;  line-height: 1.5em; }
+  .contact a:hover { font-size: 1em;  line-height: 1.5em; }
+  .btn-primary { font-size: 14px;  padding: 12px 14px }
+  .active { font-size: 14px;  padding: 12px 14px }
+  .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
+  .menu-item-bio { font-size: 14px;  padding: 12px 14px }
+  .menu-item-contact { font-size: 14px;  padding: 12px 14px }
   }
 
   /* iPhone 6/76/8  landscape */
@@ -566,6 +608,13 @@ FLEX Containers
   .col-8 {width: 60%;}
   .col-6 {width: 90%;}
   .my-bio{ height: 400px;  width: 60%}
+  .contact a { font-size: 1em;  line-height: 1.5em; }
+  .contact a:hover { font-size: 1em;  line-height: 1.5em; }
+  .btn-primary { font-size: 14px;  padding: 12px 14px }
+  .active { font-size: 14px;  padding: 12px 14px }
+  .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
+  .menu-item-bio { font-size: 14px;  padding: 12px 14px }
+  .menu-item-contact { font-size: 14px;  padding: 12px 14px }
   }
 
 /* different techniques for iPad screening */
@@ -576,6 +625,13 @@ FLEX Containers
 .col-8 {width: 60%;}
 .col-6 {width: 90%;}
 .my-bio{ height: 400px;  width:  60%}
+.contact a { font-size: 1em;  line-height: 1.5em; }
+.contact a:hover { font-size: 1em;  line-height: 1.5em; }
+.btn-primary { font-size: 14px;  padding: 12px 14px }
+.active { font-size: 14px;  padding: 12px 14px }
+.menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
+.menu-item-bio { font-size: 14px;  padding: 12px 14px }
+.menu-item-contact { font-size: 14px;  padding: 12px 14px }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) 
@@ -595,4 +651,11 @@ FLEX Containers
 .col-12 {width: 100%;}
 .my-bio{ height: 400px;  width:  60%}
 .flex-item-project {  height: 350px; }
+.contact a { font-size: 1em;  line-height: 1.5em; }
+.contact a:hover { font-size: 1em;  line-height: 1.5em; }
+.btn-primary { font-size: 14px;  padding: 12px 14px }
+.active { font-size: 14px;  padding: 12px 14px }
+.menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
+.menu-item-bio { font-size: 14px;  padding: 12px 14px }
+.menu-item-contact { font-size: 14px;  padding: 12px 14px }
 } 
