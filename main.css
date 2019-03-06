@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: 'Varela Round', sans-serif;
+  /*font-family: 'Varela Round', sans-serif; */
+  font-family: 'Old Standard TT', serif;
   color: #2a3b4e;;
   background-color:  #2a3b4e;
   overflow: scroll;
@@ -447,7 +448,7 @@ FLEX Containers
   margin-bottom: 5px;  
   background: url(./images/MyEducationScreenShot_360.png) no-repeat;
   height: 485px;
-  width: 360px;
+  width: 370px;
   border-radius: 5%;
 }
 
@@ -603,7 +604,7 @@ FLEX Containers
   .col-4 {width: 40%;}
   .col-8 {width: 60%;}
   .col-6 {width: 90%;}
-  .my-bio{ height: 400px;  width:  60%}
+  .my-bio{ height: 400px;  width: 60%}
   }
 
 /* different techniques for iPad screening */
