@@ -9,5 +9,6 @@ My portfolio information including a short bio, my skill set, short description 
 ## Technology used.
  HTML5, JQuery, Javascript, CSS, ARIA, Google fonts 
 
-
+ ## Icons 
+ https://www.freeiconspng.com/img/11372" MS SQL server icon 
 

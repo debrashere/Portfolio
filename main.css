@@ -147,39 +147,39 @@ p a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #1ba49c!important;
+  background-color: rgb(65, 233, 14);
   background-image: -webkit-gradient(linear, left top, right top, from(#1ba49c), to(blue))!important;
   background-image: -webkit-linear-gradient(left, #1ba49c, blue)!important;
   background-image: -moz-linear-gradient(left, #1ba49c, blue)!important;
   background-image: -ms-linear-gradient(left, #1ba49c, blue)!important;
   background-image: -o-linear-gradient(left, #1ba49c, blue)!important;
-  border-bottom: none
+  border-bottom: none; 
 }
 
 .btn-primary:hover .fa {
-  color: #33485F
+  color: #33485F;  
 }
 
 .btn-primary .fa-align-right {
   position: absolute;
   margin-top: 25px;
-  right: 30px
+  right: 30px;
 }
 
  blockquote {
-  padding: 0
+  padding: 0;
 }
 
 blockquote p {
-  font-size: 17px
+  font-size: 17px;
 }
  
 .bg-facebook {
-  background-color: #3664a2
+  background-color: #3664a2;
 }
 
 .bg-twitter {
-  background-color: #55acee
+  background-color: #55acee;
 }
 
 .bg-google-plus {
@@ -317,7 +317,7 @@ i {
 }
 
 .social a:hover {
-  background-color: blue
+  color: rgb(65, 233, 14);
 }
 
 .text-left {
@@ -465,7 +465,7 @@ FLEX Containers
  }
 
  .margin-bottom-large {
-  margin-bottom: 90px;
+  margin-bottom: 170px;
 }
 .margin-top-20px {
   margin-top: 20px;
@@ -588,6 +588,7 @@ FLEX Containers
 .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
 .menu-item-bio { font-size: 14px;  padding: 12px 14px }
 .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+.margin-bottom-large {  margin-bottom: 20px;}
 }
 @media only screen and (device-width: 768px) {
  /* default iPad screens */
@@ -605,6 +606,7 @@ FLEX Containers
  .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
  .menu-item-bio { font-size: 14px;  padding: 12px 14px }
  .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+ .margin-bottom-large {  margin-bottom: 20px;}
 }
 
 
@@ -624,6 +626,7 @@ FLEX Containers
   .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
   .menu-item-bio { font-size: 14px;  padding: 12px 14px }
   .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+  .margin-bottom-large {  margin-bottom: 20px;}
   }
 
   /* iPhone 6/76/8  landscape */
@@ -641,6 +644,7 @@ FLEX Containers
   .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
   .menu-item-bio { font-size: 14px;  padding: 12px 14px }
   .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+  .margin-bottom-large {  margin-bottom: 20px;}
   }
 
 /* different techniques for iPad screening */
