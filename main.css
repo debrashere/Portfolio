@@ -13,7 +13,7 @@ html {
   background-color:  #2a3b4e;
 }
 body { 
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;;
   background-color:  #2a3b4e;
   overflow: scroll;
@@ -59,7 +59,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .h1,
@@ -465,7 +465,7 @@ FLEX Containers
  }
 
  .margin-bottom-large {
-  margin-bottom: 170px;
+  margin-bottom: 175px;
 }
 .margin-top-20px {
   margin-top: 20px;
