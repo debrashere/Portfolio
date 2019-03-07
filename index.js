@@ -7,10 +7,6 @@ function showProjectDetails() {
         const projectDetailId = event.currentTarget.id.replace("btn","project-detail");
         const projectDetail = document.getElementById(projectDetailId);  
         projectDetail.className = "collaspable  margin-top-20px";   
-        if (!project) {
-        console.log("showProjectDetails projectId", projectId);
-            console.log("showProjectDetails project", project);
-        }
         project.focus();     
     }); 
 }

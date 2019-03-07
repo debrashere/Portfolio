@@ -203,12 +203,9 @@ header {
 }
 
 nav {
-  padding: 1% 0;
+  padding: 1% 0; 
   background-color: black;
   widows: 100%;
-}
-
-nav {
   position: fixed;
   overflow: auto;
   top: 0;
