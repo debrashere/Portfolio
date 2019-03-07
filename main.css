@@ -462,8 +462,15 @@ FLEX Containers
 }
 
 .my-bio {  
-  height: 500px;
   font-size: 20px;  
+ }
+
+ .text-header-name {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 30px;  
+  height: auto; 
+  color: white; 
  }
 
 .margin-top-20px {
