@@ -1,4 +1,3 @@
-
 body {  
   min-height: 100%;
   color: #2a3b4e;;
@@ -37,7 +36,6 @@ a:hover {
   padding: 5px;
   margin: 10px;
   outline: 0!important;
-  /* line-height: 1.5em; */
 }
 
 .contact a:hover {
@@ -67,7 +65,7 @@ h1 {
   font-size: 24px;
   color: #63707e;
   padding-top: 20px;
-  padding-bottom: 40px
+  padding-bottom: 20px
 }
 
 .featured h1 {
@@ -101,7 +99,6 @@ p a {
   padding: 5px;
   margin: 5px;
   outline: 0!important;
-  /* line-height: 1.5em; */
   border: 1px solid blue;
   }
 
@@ -140,7 +137,6 @@ p a:hover {
   font-size: 14px;
   padding: 12px 14px;
   border: 0 none;
-  /* line-height: 20px; */
   text-align: left;
   color: #fff!important;
   margin-top: 30px;
@@ -204,8 +200,9 @@ header {
 
 nav {
   padding: 1% 0; 
+  padding-top: 15px;
   background-color: black;
-  widows: 100%;
+  width: 100%;
   position: fixed;
   overflow: auto;
   top: 0;
@@ -224,7 +221,6 @@ nav {
   font-size: 14px;
   padding: 12px 14px;
   border: 0 none;
-  /* line-height: 20px; */
   text-align: left;
   color: #fff!important;
   margin-top: 30px;
@@ -239,9 +235,8 @@ nav {
   background-image: -ms-linear-gradient(left, purple, #4a1b88);
   background-image: -o-linear-gradient(left, purple, #4a1b88);
   font-size: 14px;
-  padding: 12px 14px;
+  padding: 12px 12px;
   border: 0 none;
-  /* line-height: 20px; */
   text-align: left;
   color: #fff!important;
   margin-top: 30px;
@@ -257,9 +252,8 @@ nav {
   background-image: -ms-linear-gradient(left, red, #e73140);
   background-image: -o-linear-gradient(left, red, #e73140);
   font-size: 14px;
-  padding: 12px 14px;
+  padding: 12px 12px;
   border: 0 none;
-  /* line-height: 20px; */
   text-align: left;
   color: #fff!important;
   margin-top: 30px;
@@ -274,9 +268,8 @@ nav {
   background-image: -ms-linear-gradient(left, green, #46bb18);
   background-image: -o-linear-gradient(left, green, #46bb18);
   font-size: 14px;
-  padding: 12px 14px;
+  padding: 12px 12px;
   border: 0 none;
-  /* line-height: 20px; */
   text-align: left;
   color: #fff!important;
   margin-top: 30px;
@@ -322,6 +315,9 @@ i {
   padding: 10px;
 }
 
+.text-left {
+  text-align: left;
+}
 .text-right {
   text-align: right;
   padding: 10px;
@@ -329,7 +325,6 @@ i {
 
 .text-center {
   text-align: center;
-  padding: 10px;
 }
 
 /*
@@ -467,7 +462,7 @@ FLEX Containers
 
  .text-header-name {
   margin-top: 20px;
-  padding: 5px;
+  padding: 3px;
   font-size: 30px;  
   height: auto; 
   color: white; 
@@ -519,9 +514,9 @@ FLEX Containers
 .contact a:hover { font-size: 1.5em;   }
 .btn-primary { font-size: 14px;  padding: 12px 14px }
 .active { font-size: 18px;  padding: 15px 20px }
-.menu-item-portfolio { font-size: 18px;  padding: 15px 20px }
-.menu-item-bio { font-size: 18px;  padding: 15px 20px }  
-.menu-item-contact { font-size: 18px;  padding: 15px 20px }
+.menu-item-portfolio { font-size: 18px;  padding: 15px 15px }
+.menu-item-bio { font-size: 18px;  padding: 15px 15px }  
+.menu-item-contact { font-size: 18px;  padding: 15px 15px }
   }  
 
 @media only screen and (min-width: 1440px) {
@@ -546,9 +541,9 @@ FLEX Containers
 .contact a:hover { font-size: 1.5em; }
 .btn-primary { font-size: 14px;  padding: 12px 14px }
 .active { font-size: 18px;  padding: 15px 20px }
-.menu-item-portfolio { font-size: 18px;  padding: 15px 20px }
-.menu-item-bio { font-size: 18px;  padding: 15px 20px }  
-.menu-item-contact { font-size: 18px;  padding: 15px 20px }
+.menu-item-portfolio { font-size: 18px;  padding: 15px 15px }
+.menu-item-bio { font-size: 18px;  padding: 15px 15px }  
+.menu-item-contact { font-size: 18px;  padding: 15px 15px }
 }
 
 @media only screen and (min-width: 2000px) {
@@ -570,9 +565,9 @@ FLEX Containers
 .contact a:hover { font-size: 1.5em;  }
 .btn-primary { font-size: 14px;  padding: 12px 14px }
 .active { font-size: 18px;  padding: 15px 20px }
-.menu-item-portfolio { font-size: 18px;  padding: 15px 20px }
-.menu-item-bio { font-size: 18px;  padding: 15px 20px }  
-.menu-item-contact { font-size: 18px;  padding: 15px 20px }
+.menu-item-portfolio { font-size: 18px;  padding: 15px 15px }
+.menu-item-bio { font-size: 18px;  padding: 15px 15px }  
+.menu-item-contact { font-size: 18px;  padding: 15px 15px }
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -588,9 +583,9 @@ FLEX Containers
   .contact a:hover { font-size: 1em; }
   .btn-primary { font-size: 14px;  padding: 12px 14px }
 .active { font-size: 14px;  padding: 12px 14px }
-.menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
-.menu-item-bio { font-size: 14px;  padding: 12px 14px }
-.menu-item-contact { font-size: 14px;  padding: 12px 14px }
+.menu-item-portfolio { font-size: 14px;  padding: 12px 12px }
+.menu-item-bio { font-size: 14px;  padding: 12px 12px }
+.menu-item-contact { font-size: 14px;  padding: 12px 12px }
 .margin-bottom-large {  margin-bottom: 20px;}
 }
 @media only screen and (device-width: 768px) {
@@ -606,9 +601,9 @@ FLEX Containers
  .contact a:hover { font-size: 1em;   }
  .btn-primary { font-size: 14px;  padding: 12px 14px }
  .active { font-size: 14px;  padding: 12px 14px }
- .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
- .menu-item-bio { font-size: 14px;  padding: 12px 14px }
- .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+ .menu-item-portfolio { font-size: 14px;  padding: 12px 12px }
+ .menu-item-bio { font-size: 14px;  padding: 12px 12px }
+ .menu-item-contact { font-size: 14px;  padding: 12px 12px }
  .margin-bottom-large {  margin-bottom: 20px;}
 }
 
@@ -627,9 +622,9 @@ FLEX Containers
   .contact a:hover { font-size: 1em;  }
   .btn-primary { font-size: 14px;  padding: 12px 14px }
   .active { font-size: 14px;  padding: 12px 14px }
-  .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
-  .menu-item-bio { font-size: 14px;  padding: 12px 14px }
-  .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+  .menu-item-portfolio { font-size: 14px;  padding: 12px 24px }
+  .menu-item-bio { font-size: 14px;  padding: 12px 12px }
+  .menu-item-contact { font-size: 14px;  padding: 12px 12px }
   .margin-bottom-large {  margin-bottom: 20px;}
   }
 
@@ -645,9 +640,9 @@ FLEX Containers
   .contact a:hover { font-size: 1em;  }
   .btn-primary { font-size: 14px;  padding: 12px 14px }
   .active { font-size: 14px;  padding: 12px 14px }
-  .menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
-  .menu-item-bio { font-size: 14px;  padding: 12px 14px }
-  .menu-item-contact { font-size: 14px;  padding: 12px 14px }
+  .menu-item-portfolio { font-size: 14px;  padding: 12px 12px }
+  .menu-item-bio { font-size: 14px;  padding: 12px 12px }
+  .menu-item-contact { font-size: 14px;  padding: 12px 12px }
   .margin-bottom-large {  margin-bottom: 20px;}
   }
 
@@ -663,9 +658,9 @@ FLEX Containers
 .contact a:hover { font-size: 1em;  }
 .btn-primary { font-size: 14px;  padding: 12px 14px }
 .active { font-size: 14px;  padding: 12px 14px }
-.menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
-.menu-item-bio { font-size: 14px;  padding: 12px 14px }
-.menu-item-contact { font-size: 14px;  padding: 12px 14px }
+.menu-item-portfolio { font-size: 14px;  padding: 12px 12px }
+.menu-item-bio { font-size: 14px;  padding: 12px 12px }
+.menu-item-contact { font-size: 14px;  padding: 12px 12px }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) 
@@ -688,7 +683,7 @@ FLEX Containers
 .contact a:hover { font-size: 1em;  }
 .btn-primary { font-size: 14px;  padding: 12px 14px }
 .active { font-size: 14px;  padding: 12px 14px }
-.menu-item-portfolio { font-size: 14px;  padding: 12px 14px }
-.menu-item-bio { font-size: 14px;  padding: 12px 14px }
-.menu-item-contact { font-size: 14px;  padding: 12px 14px }
+.menu-item-portfolio { font-size: 14px;  padding: 12px 12px }
+.menu-item-bio { font-size: 14px;  padding: 12px 12px }
+.menu-item-contact { font-size: 14px;  padding: 12px 12px }
 } 
