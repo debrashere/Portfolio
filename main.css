@@ -421,7 +421,10 @@ FLEX Containers
   border-radius: 5%;
 }
 
-.flex-item-project {   
+.flex-item-project {  
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto; 
   margin: 2px;
   height: 100%;
   padding: 5px;
@@ -578,6 +581,7 @@ FLEX Containers
   .col-4 {width: 80%;}
   .col-8 {width: 80%;}
   .col-6 {width: 90%;}
+  .flex-container{ align-items: center; }
   .flex-direction-row { flex-direction: column;}
   .my-bio { height: auto; width: 85% }
   .contact a { font-size: 1em;  }
@@ -595,6 +599,7 @@ FLEX Containers
  .col-4 {width: 40%;}
  .col-8 {width: 60%;}
  .col-6 {width: 90%;}
+ .flex-container{ align-items: center; }
  .flex-direction-row { flex-direction: column;}
  .my-bio { height: auto; }
  .contact a { font-size: 1em; }
@@ -616,6 +621,7 @@ FLEX Containers
   .col-8 {width: 60%;}
   .col-6 {width: 90%;}
   .my-bio{ height: auto;  width:  60%}
+  .flex-container{ align-items: center; }
   .flex-direction-row { flex-direction: column;}
   .contact a { font-size: 1em;   }
   .contact a:hover { font-size: 1em;  }
