@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./main.css"  media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">   
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
@@ -36,23 +36,25 @@
 <body class="home" > 
     <section>
     <!-- header -->
-        <header role="banner" class="col-12" id="top"> 
+        <header role="banner" class="col-12  bg-navy" id="top"> 
             <!-- navigation -->
-            <nav id="navigation" role="nav" class="text-center">                                                     
+            <nav id="navigation" role="nav" class="text-center bg-navy">                                                     
                     <div>
                             <a href="#portfolio" class="menu-item-portfolio" title="Portolio link">Portfolio</a>
                             <a href="#contacts" class="menu-item-contact" title="Contact link">Contact</a> 
                             <a href="#bio" class="menu-item-bio" title="Bio link">Bio</a>     
                     </div>
-                    <div class="text-header-name border-test-purple"  tabindex="0">Debra Odom</div>                                                  
+                    <div class="text-header-name "  tabindex="0">Debra Odom</div>                                                  
                 </div>                      
             </nav>                       
         </header> 
     </section>
     <section>
             <!-- Bio -->        
-           <div id="bio" class="col-12 flex-container bg-navy flex-direction-row text-center">       
-               <div class="col-8 flex-item bg-navy font-color-white my-bio text-center ">                                           
+           <div id="bio" class="col-12 flex-container bg-white flex-direction-row text-center">       
+                <div class="col-6 flex-item bg-white color-black my-bio text-center ">                                           
+                        <h1 tabindex="0">Bio</h1>  
+                    <div class="border-black">
                        <p class="text-center"  tabindex="0">                  
                                A proven Senior Developer with over 15 years of experience in decision-making, technology planning and project development thru completion. 
                                I have a passion for continual self-improvement and as such recently graduated from Full Stack Developer program at Thinkful.
@@ -64,16 +66,19 @@
                                When I'm not coding I enjoy cooking, spending time with family and designing jewelry with my sister. I do like to travel and look 
                                forward to traveling more in the future.
                        </p> 
-
-                       <h1 class="font-color-white" tabindex="0">Skills</h1>   
+                    </div>                       
+                </div>
+                <div class="col-6 flex-item bg-white color-black my-bio text-center ">                                                           
+                       <h1 class="color-black" tabindex="0">Skills</h1>  
+                    <div class="border-black">                        
                        <div class="radius-border text-center" tabindex="0">
                             Responsive design, TDD, Agile/Scrum Methodologies, Skilled in Requirements Analysis
                             <P>HTML5, Javascript,  jQuery, NodeJS, React, Redux, JWT </p>
                             <p>MongoDb/Mongoose, SQL, JSON data, Web API, Npm, Amazon Web Services, Heroku </p>                                                                                         
                             <p>Dot.Net, Visual Studio, cSharp,MVC, WCF services, TFS, SSIS, SSRS </p>                                                                                                                                                                                                       
-                            <p>Github, Git, Slack, Mocha/Chai, Travis CI, Postman, Powershell, Fiddler </p>
-                        <p>
-                            <i class="devicon-html5-plain icon"></i>
+                            <p>Github, Gitbash, Slack, Mocha/Chai, Travis CI, Postman, Powershell, Fiddler </p>
+                        <p>              
+                            <i class="devicon-html5-plain icon"></i>       
                             <i class="devicon-javascript-plain icon"></i> 
                             <i class="devicon-jquery-plain icon"></i>                                
                             <i class="devicon-amazonwebservices-original icon"> </i>                               
@@ -90,16 +95,17 @@
                             <i class="devicon-mocha-plain icon"></i>                         
                             <i class="devicon-travis-plain icon"></i>                               
                         </p>                                 
-                       </div>                                                                                                                                                        
-               </div>                        
+                       </div>  
+                    </div>                                                                                                                                                        
+                 </div>                        
        </div> 
        </section>
    
     <section>
             <!-- My Projects -->
             <div  id="portfolio" class="col-12 flex-container flex-direction-row color-dark-navy">
-                <div id="portfolio-menu" class="col-3 flex-item-project bg-light-grey text-center">                        
-                        <h2 class="margin-bottom"  tabindex="0">Menu and Event Planner</h2>
+                <div id="portfolio-menu" class="col-4 flex-item-project bg-light-grey text-center">                                  
+                        <h2 class="margin-bottom"  tabindex="0">Menu and Event Planner</h2>                    
                         <p  tabindex="0">
                                 Track and share event details which may include menu's in which participates collaborate to deliver or make menu items.
                                 Users have access to search for recipes (via API) within the site. 
@@ -117,7 +123,7 @@
                                 </a>
                         </div>
                 </div>
-                <div id="portfolio-career" class="col-3 flex-item-project bg-light-grey text-center">    
+                <div id="portfolio-career" class="col-4 flex-item-project bg-light-grey text-center">    
                             <h2 class="margin-bottom"  tabindex="0">Career Strategy  &amp; Planning</h2>
                             <p  tabindex="0">
                                     Manage data pertaining to jobs that you are researching or have applied for.
@@ -139,7 +145,7 @@
                                     </a>
                             </div>
                     </div>
-                    <div id="portfolio-education" class="col-3 flex-item-project bg-light-grey text-center"  tabindex="-1">   
+                    <div id="portfolio-education" class="col-4 flex-item-project bg-light-grey text-center"  tabindex="-1">   
                         <h2 class="margin-bottom"  tabindex="0">My Education </h2>
                         <p  tabindex="0">
                             Application users can share information about educational tools for 
@@ -163,8 +169,7 @@
         </div>            	      
     </section>
     <section>
-        <!-- Project details -->
-          
+        <!-- Project details -->          
         <!-- Menu and Event planning project-->
         <div  id="menu-project" class="margin-top-20px">
                 <div id="menu-project-detail" class="col-10 collaspable collasped ">     
@@ -307,8 +312,8 @@
     </section>
     <section>
             <!-- Contact information -->
-            <div  id="contacts" class="col-12 bg-navy font-color-white text-center"> 
-                <h1 class="font-color-white"  tabindex="0">My contact information</h1>       
+            <div  id="contacts" class="col-12 bg-white color-black text-center"> 
+                <h1  tabindex="0">My contact information</h1>       
                 <div id="email"  class="contact">
                         <address>
                             <a href="mailto:debraaodom@gmail.com" title="Email link">Debra Odom @debraaodom@gmail.com</a><br>  
@@ -322,17 +327,17 @@
         </section>      
     <section>
         <!-- Footer -->    
-        <div class="col-12 flex-container bg-black">
-            <footer class="flex-item bg-black margin-bottom text-center">                              
-                    <div class="col-11 social bg-black">                
-                        <a href="https://www.github.com/debrashere/" target="_blank" title="Debra Odom, Fullstack Developer on Github"><i class="fa fa-github"></i>Github</a>                        
-                        <a href="https://thinkful.slack.com/" target="_blank" title="Debra Odom, known as DeeDee on slack"><i class="fa fa-slack"></i>Slack</a>                        
-                    </div>     
+        <div class="flex-container col-12  bg-navy">
+            <footer class="flex-item col-12 bg-navy margin-bottom text-center bg-navy">                              
+                <div class="social bg-navy">                
+                    <a href="https://www.github.com/debrashere/" target="_blank" title="Debra Odom, Fullstack Developer on Github"><i class="fa fa-github"></i>Github</a>                        
+                    <a href="https://thinkful.slack.com/" target="_blank" title="Debra Odom, known as DeeDee on slack"><i class="fa fa-slack"></i>Slack</a>                        
+                </div>     
                                                                      
                 <!-- footer navigation -->
-                <div class="flex-item bg-black text-center">
-                    <div class="col-11 bg-black">
-                        <ul id="menu-footer-navigation"  class="nav footer-nav bg-black clearfix">
+                <div class="flex-item  col-12  bg-navy text-center">
+                    <div class=" bg-navy">
+                        <ul id="menu-footer-navigation"  class="nav footer-nav bg-navy clearfix">
                             <li  class="menu-item"><a title="Home footer link" href="#top">Home</a></li>
                             <li><a title="Fullstack Web Developer Portfolio" href="#portfolio">Portfolio</a></li>
                             <li><a title="Web Developer Bio" href="#bio">Bio</a></li>

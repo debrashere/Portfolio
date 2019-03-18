@@ -1,3 +1,4 @@
+
 // Show hidden div when "View More" is clicked for any of the project summaries
 function showProjectDetails() {
     $(".btn-details ").click(function(event) { 
@@ -20,7 +21,7 @@ function hideProjectDetails() {
         project.className = "collaspable collasped  margin-top-20px";               
     }); 
 }
-
+ 
 function setHandlers() {
     showProjectDetails();
     hideProjectDetails();
