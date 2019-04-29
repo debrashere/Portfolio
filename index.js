@@ -23,8 +23,8 @@ function hideProjectDetails() {
 }
  
 function setHandlers() {
-    showProjectDetails();
-    hideProjectDetails();
+    /* showProjectDetails(); */
+    /* hideProjectDetails(); */
 }
 
 $(setHandlers());

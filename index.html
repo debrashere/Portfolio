@@ -6,30 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">        		
     <meta name="description" content="Fullstack Web Developer.">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./main.css"  media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">   
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">    
+    <!-- Favicon -->  
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
 
@@ -103,26 +90,7 @@
    
     <section>
             <!-- My Projects -->
-            <div  id="portfolio" class="col-12 flex-container flex-direction-row color-dark-navy">
-                <div id="portfolio-menu" class="col-4 flex-item-project bg-light-grey text-center">                                  
-                        <h2 class="margin-bottom"  tabindex="0">Menu and Event Planner</h2>                    
-                        <p  tabindex="0">
-                                Track and share event details which may include menu's in which participates collaborate to deliver or make menu items.
-                                Users have access to search for recipes (via API) within the site. 
-                                <br />
-                                <strong>Technologies used</strong> <br />
-                                Html5, Responsive design, JavaScript, JQuery, JSON data, Web API
-                                <p>
-                                    <a href="https://debrashere.github.io/MenuAndEventPlanner/" target="_blank" title="Menu Live app link">Live app</a>&nbsp;|&nbsp;
-                                    <a href="https://github.com/debrashere/MenuAndEventPlanner/" target="_blank" title="Menu Github repository link">Github repository </a>                    
-                                </p>
-                        </p>
-                        <div  tabindex="0">
-                                <a id="menu-btn" class="btn btn-details btn-primary radius-border" role="button"
-                                    href="#menu-project" title="Menu &amp; Event Planner">View more
-                                </a>
-                        </div>
-                </div>
+            <div  id="portfolio" class="col-12 flex-container flex-direction-row color-dark-navy">                 
                 <div id="portfolio-career" class="col-4 flex-item-project bg-light-grey text-center">    
                             <h2 class="margin-bottom"  tabindex="0">Career Strategy  &amp; Planning</h2>
                             <p  tabindex="0">
@@ -141,7 +109,7 @@
                             </p>
                             <div>
                                     <a id="career-btn" class="btn btn-details  btn-primary radius-border" role="button" 
-                                        href="#career-project"  title="Career Strategy and Planning">View more
+                                        href="./projectone.html"  title="Career Strategy and Planning">View more
                                     </a>
                             </div>
                     </div>
@@ -162,154 +130,12 @@
                     </p>
                     <div>
                             <a id="education-btn" class="btn btn-details btn-primary radius-border" role="button"
-                                href="#education-project"  title="My Education Project">View more
+                                href="./projecttwo.html"  title="My Education Project">View more
                             </a>
                     </div>   
                 </div>
         </div>            	      
-    </section>
-    <section>
-        <!-- Project details -->          
-        <!-- Menu and Event planning project-->
-        <div  id="menu-project" class="margin-top-20px">
-                <div id="menu-project-detail" class="col-10 collaspable collasped ">     
-                    <div class="text-right">         
-                        <a id="menu-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
-                            href="#portfolio-menu"  title="Menu Project close button">Close
-                        </a>
-                    </div>  
-                    <div class="flex-container  flex-direction-row">                            
-                        <div class="col-4 flex-item project-menu-screenshots"></div> 
-                        <div class="col-6 flex-item">  
-                            <h2 class="margin-bottom"  tabindex="0">Menu and Event Planner</h2>           
-                            <p>
-                                <a href="https://debrashere.github.io/MenuAndEventPlanner/" target="_blank" title="Menu Live app link">Live app</a>&nbsp;|&nbsp;
-                                <a href="https://github.com/debrashere/MenuAndEventPlanner/" target="_blank" title="Menu Github repository link">Github repository </a>                                                                     
-                            </p>
-
-                            <h3 tabindex="0">What you can do</h3>
-                            <p  tabindex="0">Search for recipes.
-                                Make changes to the event details such as address and event name. 
-                                Note: this data is not stored when the page is refreshed, the mock data will appear.
-                            </p>                                                       
-                            <p  tabindex="0">                                                                     
-                                    <h3  tabindex="0">To find recipes</h3>
-                                    <ul  tabindex="0">
-                                        <li>Enter ingredient, dish name etc in "Input" box for recipe search and hit enter.
-                                            Collection of recipes will display below the search box.</li> 
-                                        <li>Review the results by paging thru them.</li> 
-                                        <li>To select a recipe that you would like to add to the menu
-                                            <ul>
-                                                <li>Within each recipe box is text "Add recipe to menu".</li>
-                                                <li>Below that are links for each course.</li>
-                                                <li>Click on the link for the course that you would like to add the recipe to.</li>
-                                                <li>  Scroll down to the menu section and the recipe name from the search results should appear.</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-                                    <h3  tabindex="0">To update the location of the event</h3>
-                                    <ul  tabindex="0">
-                                        <li>Next to the event name, click the "edit" link.</li> 
-                                        <li>An input form should appear at the top of the screen.</li> 
-                                        <li>Change the address of the event and click the "Submit" button.
-                                                The address and the google map should be updated with the new address.
-                                                To display only menu items contributed by a specific attendee.                                           
-                                    </ul>                                    
-                            </p>                                                   
-                        </div>              
-                    </div>
-            </div> 
-        </div>   
-        
-        <!-- Career planning project--> 
-        <div id="career-project" class="margin-top-20px">
-                <div   id="career-project-detail" class="col-10 collaspable collasped">     
-                    <div class="text-right">         
-                        <a id="career-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
-                            href="#portfolio-career"  title="Menu Project close button">Close
-                        </a>
-                    </div>  
-                    <div class="flex-container  flex-direction-row">                            
-                        <div class="col-4 flex-item project-career-screenshots"></div> 
-                        <div class="col-6 flex-item">   
-                            <h2 class="margin-bottom"  tabindex="0">Career Strategy  &amp; Planning</h2>          
-                            <p>                            
-                                <a href="https://debrashere.github.io/CareerStrategyWithApi/public/index.html" target="_blank" title="Career live app link">Live app</a>&nbsp;|&nbsp;
-                                <a href="https://github.com/debrashere/CareerStrategyWithApi/" target="_blank" title="Career Github repository link" >Github repository </a>                    
-                            </p>                   
-                            <h3  tabindex="0">What you can do</h3>
-                            <p  tabindex="0">Manage data pertaining to jobs that you are researching or have applied for.
-                                    You can save important information about your job search regardless of where you found the job.                                    
-                                    Each user will have their own login allowing them access to only their information.
-                            </p>
-    
-                            <h3  tabindex="0">Job Prospect Information</h3>                          
-                            <p>
-                                <ul tabindex="0">                                        
-                                       <li> What: The job title. Displayed as heading.</li>
-                                       <li>Where: The name of the company.</li>
-                                        <li>When: When you applied or contacted company about this job.</li>
-                                        <li>Status: The current status.</li>
-                                        <li>Source: Where you found this job prospect.</li>
-                                        <li>Source Url: Link to this job if applicable.</li>
-                                        <li>Contacts: Information about persons who have contacted you about this job.</li>
-                                        <li>Comments: Any additional comments.</li>
-                                        <li>Details: Any details you would like to add about the job prospect.</li>
-                                        <li>Day to Day: The day to day expections of the job prospect.</li>
-                                        <li>Job Skills: Skills required or optional for the job prospect. Green indicates a match between your skills and the job skills.</li>                                                                                                            
-                                </ul>
-                            </p>                                                   
-                        </div>              
-                    </div>
-            </div> 
-        </div>     
-
-        <!-- My Education project-->                 
-        <div id="education-project" class="margin-top-20px">
-            <div  id="education-project-detail" class="col-10 collaspable collasped ">     
-                <div class="text-right">         
-                    <a id="education-close" class="btn btn-collaspe btn-primary radius-border" role="button" 
-                        href="#portfolio-education"  title="Menu Project close button">Close
-                    </a>
-                </div>  
-                <div class="flex-container  flex-direction-row">                            
-                    <div class="col-4 flex-item project-education-screenshots"></div> 
-                    <div class="col-6 flex-item font-color-black">     
-                        <h2 class="margin-bottom"  tabindex="0">My Education </h2> 
-                        <p>
-                            <a href="https://immense-savannah-21266.herokuapp.com/" target="_blank"  title="Education live app link">Live app</a>&nbsp;|&nbsp;
-                            <a href="https://github.com/debrashere/myeducationclient/" target="_blank"  title="Education Github repository link">Github repository </a>                                                               
-                        </p>    
-                        <h3 tabindex="0">What you can do</h3>
-                        <p  tabindex="0">View educational tools that users of this App have submitted.</p>
-
-                        <h3  tabindex="0">Tools</h3>
-                         <p  tabindex="0">You are able to view rating of tools that users have submitted to the site.</p>
-
-                        <p>
-                            <ul  tabindex="0">
-                                <li>Title: The name of the tool.</li>
-                                <li>Description: A brief description of the tool.</li>
-                                <li>Url: The site url for the tool.</li>
-                                <li>Price: The price of the tool.</li>
-                                <li>Rating: Rating between 1 and 5 given by the user. </li>
-                            </ul>
-                        </p> 
-                                              
-                        <h3  tabindex="0">Comments</h3>
-                        <p>
-                           <ul  tabindex="0">
-                               <li>Author: User name of the person who sumitted the comment.</li>
-                               <li>Comment: What they had to say about the tool.</li>
-                               <li>Rating: The rating the user gave this tools</li>                   
-                           </ul>
-                       </p>                         
-                    </div>              
-                </div>
-            </div> 
-    </div>         
-    </section>
+    </section>    
     <section>
             <!-- Contact information -->
             <div  id="contacts" class="col-12 bg-white color-black text-center"> 
